@@ -3,6 +3,7 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 import CTADrawer from "@/components/cta-drawer"
 import WhatsAppFloat from "@/components/whatsapp-float"
+import VSLEmbedPlayer from "@/components/vsl-embed-player"
 import LeadForm from "@/components/lead-form"
 import TrustBadges from "@/components/trust-badges"
 import { Button } from "@/components/ui/button"
@@ -64,6 +65,27 @@ export default function MedicinaGeneralPage() {
               </div>
 
               <TrustBadges />
+            </div>
+          </div>
+        </section>
+
+        {/* VSL Section */}
+        <section className="py-12 md:py-16 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <div className="text-center mb-8">
+                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                  Conoce más sobre nuestra medicina general
+                </h2>
+                <p className="text-lg text-gray-600">
+                  Video informativo sobre nuestro enfoque médico integral
+                </p>
+              </div>
+              <VSLEmbedPlayer
+                embedUrl="https://drive.google.com/drive/folders/1p4bJn3IIryF5ycmN9lJ5zgxLToKfdC4A"
+                thumbnail="/thumbnails/medicina-general.jpg"
+                title="VSL Medicina General – Clínica Bihu"
+              />
             </div>
           </div>
         </section>

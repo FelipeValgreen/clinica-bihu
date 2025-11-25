@@ -4,6 +4,7 @@ import Footer from "@/components/footer"
 import CTADrawer from "@/components/cta-drawer"
 import WhatsAppFloat from "@/components/whatsapp-float"
 import VSLPlayer from "@/components/vsl-player"
+import VSLEmbedPlayer from "@/components/vsl-embed-player"
 import VideoThumbnail from "@/components/video-thumbnail"
 import Checklist from "@/components/checklist"
 import Timeline from "@/components/timeline"
@@ -73,6 +74,27 @@ export default function PsiquiatriaPage() {
               </div>
 
               <TrustBadges />
+            </div>
+          </div>
+        </section>
+
+        {/* VSL Section */}
+        <section className="py-12 md:py-16 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <div className="text-center mb-8">
+                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                  Conoce más sobre nuestra consulta psiquiátrica
+                </h2>
+                <p className="text-lg text-gray-600">
+                  Video informativo sobre nuestro enfoque psiquiátrico
+                </p>
+              </div>
+              <VSLEmbedPlayer
+                embedUrl="https://drive.google.com/drive/folders/1p4bJn3IIryF5ycmN9lJ5zgxLToKfdC4A"
+                thumbnail="/thumbnails/psiquiatria.jpg"
+                title="VSL Psiquiatría – Clínica Bihu"
+              />
             </div>
           </div>
         </section>
