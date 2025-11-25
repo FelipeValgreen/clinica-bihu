@@ -62,14 +62,23 @@ export default function VSLEmbedPlayer({
           aria-label={`Reproducir video: ${title}`}
         >
           <div className="relative w-full h-full">
-            <Image
-              src={thumbnail}
-              alt={title}
-              fill
-              className="object-cover"
-              priority
-              onError={() => setError(true)}
-            />
+            {!error ? (
+              <Image
+                src={thumbnail}
+                alt={title}
+                fill
+                className="object-cover"
+                priority
+                onError={() => setError(true)}
+              />
+            ) : (
+              <div className="w-full h-full bg-gradient-to-br from-[#023B6A] to-[#034a7a] flex items-center justify-center">
+                <div className="text-center text-white p-8">
+                  <Play className="w-16 h-16 mx-auto mb-4 opacity-50" />
+                  <p className="text-lg font-semibold">{title}</p>
+                </div>
+              </div>
+            )}
             <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/50 group-hover:from-black/60 group-hover:via-black/50 group-hover:to-black/60 transition-all"></div>
           </div>
           <div className="absolute inset-0 flex items-center justify-center">
