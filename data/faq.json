@@ -1,0 +1,42 @@
+{
+  "hospitalizacion": [
+    {
+      "pregunta": "¿Cuál es la edad mínima para hospitalización?",
+      "respuesta": "Atendemos pacientes desde los 14 años en adelante, siempre con autorización y acompañamiento familiar."
+    },
+    {
+      "pregunta": "¿Qué requisitos debe cumplir el paciente?",
+      "respuesta": "El paciente debe ser autovalente y contar con el compromiso de un familiar responsable durante todo el proceso."
+    },
+    {
+      "pregunta": "¿Cómo se realiza el pago?",
+      "respuesta": "Se requiere un pagaré y el pago de una semana por anticipado. Aceptamos efectivo, transferencia y tarjetas."
+    },
+    {
+      "pregunta": "¿Se respeta la privacidad del paciente?",
+      "respuesta": "Absolutamente. Mantenemos estricta confidencialidad médica y solo compartimos información con familiares autorizados."
+    },
+    {
+      "pregunta": "¿Qué nivel de compromiso requiere la familia?",
+      "respuesta": "La familia debe participar activamente en el proceso terapéutico, asistir a sesiones familiares y brindar apoyo continuo."
+    }
+  ],
+  "general": [
+    {
+      "pregunta": "¿Atienden urgencias las 24 horas?",
+      "respuesta": "Sí, contamos con atención de urgencias psiquiátricas las 24 horas del día, los 7 días de la semana."
+    },
+    {
+      "pregunta": "¿Tienen convenios con Isapres o Fonasa?",
+      "respuesta": "No tenemos convenios directos, pero puedes solicitar reembolso a tu seguro de salud con la boleta de atención."
+    },
+    {
+      "pregunta": "¿Ofrecen atención online?",
+      "respuesta": "Sí, ofrecemos consultas de psiquiatría y psicología en modalidad online para mayor comodidad."
+    },
+    {
+      "pregunta": "¿Cómo puedo agendar una consulta?",
+      "respuesta": "Puedes agendar a través de nuestro sistema Nicemed, por WhatsApp o llamando directamente a la clínica."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "hospitalizacion": {
+    "titulo": "Hospitalización Psiquiátrica",
+    "descripcion": "Atención integral 24/7 con inclusión familiar. Un entorno seguro donde tu familia también se trata.",
+    "incluye": [
+      "Habitación individual, cama cómoda y entorno privado",
+      "4 comidas diarias diseñadas por nutricionista",
+      "Kinesiología diaria",
+      "Terapia ocupacional 2 veces al día",
+      "Psicoterapia semanal",
+      "3 sesiones semanales con psiquiatría",
+      "Enfermería 24/7 (1 enfermero cada 5 pacientes) más cuidador de apoyo"
+    ],
+    "no_incluye": [
+      "Medicamentos",
+      "Interconsultas adicionales (neurólogo, medicina general)",
+      "Exámenes",
+      "Cuidador externo adicional",
+      "Traslado en ambulancia"
+    ]
+  },
+  "psiquiatria": {
+    "titulo": "Psiquiatría",
+    "descripcion": "Atención médica especializada para estabilizar crisis emocionales y del ánimo",
+    "beneficios": [
+      "Diagnóstico especializado",
+      "Plan de tratamiento personalizado",
+      "Seguimiento continuo",
+      "Modalidad presencial u online"
+    ]
+  },
+  "psicologia": {
+    "titulo": "Psicología",
+    "descripcion": "Terapia para hablar, comprender y transformar lo que estás viviendo",
+    "beneficios": ["Terapia individual", "Terapia de pareja", "Terapia familiar", "Modalidad presencial u online"]
+  },
+  "kinesiologia": {
+    "titulo": "Kinesiología",
+    "descripcion": "Rehabilitación física para bienestar mental",
+    "beneficios": [
+      "Evaluación kinésica integral",
+      "Ejercicios terapéuticos",
+      "Rehabilitación funcional",
+      "Técnicas de relajación"
+    ]
+  },
+  "terapia_ocupacional": {
+    "titulo": "Terapia Ocupacional",
+    "descripcion": "Recuperación de rutinas y autonomía",
+    "beneficios": [
+      "Evaluación ocupacional",
+      "Actividades de la vida diaria",
+      "Habilidades sociales",
+      "Reinserción laboral"
+    ]
+  },
+  "nutricion": {
+    "titulo": "Nutrición",
+    "descripcion": "Alimentación personalizada para bienestar mental",
+    "beneficios": [
+      "Evaluación nutricional",
+      "Plan alimentario personalizado",
+      "Educación nutricional",
+      "Seguimiento continuo"
+    ]
+  },
+  "medicina_general": {
+    "titulo": "Medicina General",
+    "descripcion": "Atención médica integral con enfoque humano",
+    "beneficios": [
+      "Consulta médica general",
+      "Evaluación de salud integral",
+      "Derivación especializada",
+      "Seguimiento médico"
+    ]
+  }
+}

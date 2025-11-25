@@ -1,0 +1,44 @@
+{
+  "hospitalizacion": {
+    "precio_dia": 180000,
+    "moneda": "CLP",
+    "incluye": [
+      "Habitación individual privada",
+      "3 consultas psiquiátricas por semana",
+      "2 sesiones de psicología por semana",
+      "Kinesiología diaria",
+      "Terapia ocupacional 2 veces al día",
+      "4 comidas balanceadas por nutricionista",
+      "Enfermería especializada 1:5",
+      "Cuidador profesional incluido"
+    ],
+    "no_incluye": [
+      "Medicamentos",
+      "Interconsultas externas",
+      "Exámenes de laboratorio",
+      "Cuidador externo adicional",
+      "Traslado en ambulancia"
+    ]
+  },
+  "consultas": {
+    "psiquiatria": 80000,
+    "psicologia": 60000,
+    "kinesiologia": 45000,
+    "terapia_ocupacional": 50000,
+    "nutricion": 40000,
+    "medicina_general": 55000
+  },
+  "cuidador": {
+    "precio_dia": 120000,
+    "incluye": [
+      "Acompañamiento 24/7",
+      "Especializado en salud mental",
+      "Incluido en hospitalización"
+    ]
+  },
+  "reembolsos": {
+    "con_boleta": true,
+    "sin_convenios_directos": true,
+    "nota": "Los precios pueden variar según el plan de tu seguro. Consulta directamente con tu Isapre/Fonasa sobre los porcentajes de reembolso."
+  }
+}

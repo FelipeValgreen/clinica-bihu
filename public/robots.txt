@@ -1,0 +1,9 @@
+# robots.txt para Clínica Bihu
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemap
+Sitemap: https://www.clinicabihu.cl/sitemap.xml
+

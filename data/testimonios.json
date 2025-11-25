@@ -1,0 +1,58 @@
+{
+  "testimonios": [
+    {
+      "id": 1,
+      "nombre": "M. G.",
+      "edad": 42,
+      "rol": "Familiar de paciente",
+      "servicio": "Hospitalización Psiquiátrica",
+      "testimonio": "Mi hija recibió el mejor cuidado durante su internación. La familia siempre fue incluida en el proceso.",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "nombre": "R. S.",
+      "edad": 38,
+      "rol": "Paciente dado de alta",
+      "servicio": "Consulta Psiquiátrica",
+      "testimonio": "Me ayudó mucho con mi tratamiento. Atención de calidad y trato humano.",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "nombre": "C. L.",
+      "edad": 35,
+      "rol": "Paciente en tratamiento",
+      "servicio": "Terapia Psicológica",
+      "testimonio": "Me ayudaron mucho en mi proceso. El ambiente es tranquilo y acogedor.",
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "nombre": "P. R.",
+      "edad": 50,
+      "rol": "Familiar de paciente",
+      "servicio": "Hospitalización",
+      "testimonio": "Mi familiar se recuperó gracias a su dedicación y profesionalismo. El equipo multidisciplinario es excelente.",
+      "rating": 5
+    },
+    {
+      "id": 5,
+      "nombre": "D. H.",
+      "edad": 29,
+      "rol": "Paciente dado de alta",
+      "servicio": "Consulta Integral",
+      "testimonio": "Personal capacitado y ambiente tranquilo. Recomiendo totalmente esta clínica.",
+      "rating": 5
+    },
+    {
+      "id": 6,
+      "nombre": "S. M.",
+      "edad": 45,
+      "rol": "Familiar de paciente",
+      "servicio": "Terapia Familiar",
+      "testimonio": "El enfoque familiar es lo que más me gustó. Incluyen a toda la familia en el proceso de recuperación.",
+      "rating": 5
+    }
+  ]
+}
